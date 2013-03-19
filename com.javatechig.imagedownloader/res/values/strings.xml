@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">android.layout</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="name">UserName:  </string>
+    <string name="Button">Login</string>
+    <string name="Button1">Cancel</string>
+    <string name="text">Forgot password?<u>Click Here</u></string>
+
+</resources>
