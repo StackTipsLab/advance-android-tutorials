@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">WidgetDemo</string>
+
+    <string-array name="news_headlines">
+        <item>Two brooms are getting married. Before the ceremony, the bride broom says to the groom broom, "I think I'm going to have a whisk."
+The groom broom says, How can that be possible? We havent even swept together!"</item>
+        <item>A man cheats on his girlfriend named Lorraine with a girl named Clearly.
+
+Suddenly, Lorraine died.
+
+At the funeral, the man stands up and sings, I can see Clearly now, Lorraine is gone.</item>
+        <item>Q: What is the difference between a girlfriend and a wife?
+
+A: 45 lbs.
+
+Q: What is the difference between a boyfriend and a husband?
+
+A: 45 minutes.</item>
+        <item>            Q: What is the difference between a divorce and a circumcision?
+
+A: In a divorce, you get rid of the whole schmuck.</item>
+    </string-array>
+
+</resources>

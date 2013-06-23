@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:background="@drawable/appwidget_dark_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <Button
+            android:id="@+id/sync_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_sync_button"
+            android:text="" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonContainer"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:padding="8dp" >
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:paddingBottom="5dp"
+            android:text=""
+            android:textColor="#fcfcfc"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="5"
+            android:text=""
+            android:textColor="#fcfcfc"
+            android:textSize="13sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</RelativeLayout>
