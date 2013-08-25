@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">List All Apps</string>
+    <string name="about_title">Javatechig.com</string>
+    <string name="about_desc">Provides tutorials, tips, examples and source code on leading Java, Android, Blackberry, PhoneGap and other mobile technologies.</string>
+    <string name="action_about">About</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
