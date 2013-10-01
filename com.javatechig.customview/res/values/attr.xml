@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LovelyView">
+        <attr name="leftLabel" format="string" />
+        <attr name="rightLabel" format="string" />
+        <attr name="leftLabelStyle" format="reference" />
+        <attr name="rightLabelStyle" format="reference" />
+    </declare-styleable>
+
+</resources>

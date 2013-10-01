@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.customview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <com.example.customview.LovelyView
+        android:id="@+id/lovelyView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        custom:leftLabel=""
+        custom:leftLabelStyle="@style/leftTextStyle"
+        custom:rightLabel=""
+        custom:rightLabelStyle="@style/rightTextStyle" />
+
+    <com.example.customview.LovelyView
+        android:id="@+id/lovelyView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        custom:leftLabel="Hello Mr:"
+        custom:leftLabelStyle="@style/leftTextStyle"
+        custom:rightLabel="Whats Up Buddy!"
+        custom:rightLabelStyle="@style/rightTextStyle" />
+
+</LinearLayout>
