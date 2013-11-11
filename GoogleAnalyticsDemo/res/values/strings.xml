@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AnalyticsDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="info">Hello! Welcome to Google Analytics Demo.</string>
+    <string name="button">Track Event</string>
+
+</resources>
