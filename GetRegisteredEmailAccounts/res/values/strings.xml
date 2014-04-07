@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RegisteredEmailAccounts</string>
+
+    <string-array name="acounts_list">
+        <item>All Accounts</item>
+        <item>Google Accounts</item>
+    </string-array>
+
+</resources>

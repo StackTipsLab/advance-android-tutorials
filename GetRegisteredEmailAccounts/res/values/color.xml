@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue">#00abea</color>
+    <color name="white">#ffffff</color>
+    
+     <color name="toast_bg_transparent">#E6000000</color>
+
+     
+     <color name="lovely_row_bg1">#D6DFEC</color>
+     <color name="lovely_row_bg2">#fff</color>
+</resources>
