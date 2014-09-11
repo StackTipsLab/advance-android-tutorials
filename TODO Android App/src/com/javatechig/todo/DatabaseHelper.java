@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class DBhelper extends SQLiteOpenHelper {
+public class DatabaseHelper extends SQLiteOpenHelper {
 
 	// Table Name
 	public static final String TABLE_NAME = "TODOS";
@@ -24,7 +24,7 @@ public class DBhelper extends SQLiteOpenHelper {
 	private static final String CREATE_TABLE = "create table " + TABLE_NAME + "(" + _ID
 			+ " INTEGER PRIMARY KEY AUTOINCREMENT, " + TODO_SUBJECT + " TEXT NOT NULL, " + TODO_DESC + " TEXT);";
 
-	public DBhelper(Context context) {
+	public DatabaseHelper(Context context) {
 		super(context, DB_NAME, null, DB_VERSION);
 	}
 

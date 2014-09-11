@@ -9,11 +9,14 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class ModifyTodoActivity extends Activity implements OnClickListener {
+	
 	private EditText titleText;
 	private Button updateBtn, deleteBtn;
-	private long _id;
-	private SQLController dbController;
 	private EditText descText;
+	
+	private long _id;
+	
+	private DBManager dbManager;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +26,8 @@ public class ModifyTodoActivity extends Activity implements OnClickListener {
 		  
 		setContentView(R.layout.activity_modify_record);
 
-		dbController = new SQLController(this);
-		dbController.open();
+		dbManager = new DBManager(this);
+		dbManager.open();
 
 		titleText = (EditText) findViewById(R.id.subject_edittext);
 		descText = (EditText) findViewById(R.id.description_edittext);
@@ -53,12 +56,12 @@ public class ModifyTodoActivity extends Activity implements OnClickListener {
 			String title = titleText.getText().toString();
 			String desc = descText.getText().toString();
 			
-			dbController.update(_id, title, desc);
+			dbManager.update(_id, title, desc);
 			this.returnHome();
 			break;
 
 		case R.id.btn_delete:
-			dbController.delete(_id);
+			dbManager.delete(_id);
 			this.returnHome();
 			break;
 		}
