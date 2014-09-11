@@ -4,6 +4,7 @@
     <string name="app_name">Todo</string>
     <string name="enter_name">Enter Name</string>
     <string name="add_record">Add Record</string>
+    <string name="export_records">Export To Excel</string>
     <string name="btn_update">Update</string>
     <string name="btn_delete">Delete</string>
     <string name="empty_list_text">No records found</string>
