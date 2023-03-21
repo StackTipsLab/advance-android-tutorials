@@ -1,9 +1,7 @@
 1. **Sending SMS in android Example**
-
     https://stacktips.com/articles/sending-sms-message-in-android
 
 2. **Android JSON Feed Reader**
-
     https://stacktips.com/articles/json-feed-reader-in-android
 
 3. **Asynchronous image downloader**
