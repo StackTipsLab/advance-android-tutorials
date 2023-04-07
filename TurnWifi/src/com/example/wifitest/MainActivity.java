@@ -14,6 +14,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		// Will not work for latest versions
 
 		Switch toggle = (Switch) findViewById(R.id.wifi_switch);
 		toggle.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
