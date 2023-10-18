@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">FCM App</string>
+    <string name="hint">Visit Firebase Console to send notifications.</string>
+</resources>
