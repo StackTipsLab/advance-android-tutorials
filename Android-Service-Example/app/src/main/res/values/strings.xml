@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Service Example</string>
+    <string name="service_desc">- A service is a application component used to perform long running tasks in background. \n\n- A service can run in the background indefinitely, even if component that started the service is destroyed.\n\n- Usually a service always performs a single operation and stops itself once intended task is complete.
+</string>
+
+    <string name="start_service">Start Service</string>
+
+    <string name="stop_service">Stop Service</string>
+
+</resources>
