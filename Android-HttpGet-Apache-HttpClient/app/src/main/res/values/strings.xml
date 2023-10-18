@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HttpAsyncTask</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint">This example demonstrates different ways to perform network operations in Android. This example downloads the jokes from server and displays on screen.</string>
+
+</resources>
