@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <EditText
+        android:id="@+id/input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Enter your command"
+        android:minLines="2"
+        android:padding="10dp" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/speak_now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speak Now" />
+
+</LinearLayout>
